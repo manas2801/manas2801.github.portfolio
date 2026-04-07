@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manas Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h2>Manas</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <button onclick="toggleTheme()">🌙</button>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero">
+    <div class="hero-content">
+        <img src="profile.jpg" class="profile-pic">
+
+        <h1>Hello, I'm <span>Manas Mayank</span></h1>
+        <p class="tagline"><span id="typing"></span></p>
+
+        <p class="intro">
+            I build real-world web applications using Python, Flask and modern web technologies.
+        </p>
+
+        <p>📍 Bihar, India</p>
+
+        <a href="#projects"><button>View My Work</button></a>
+    </div>
+</header>
+
+<!-- About -->
+<section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I am a BCA final year student passionate about web development and building real-world applications.</p>
+</section>
+
+<!-- Skills -->
+<section id="skills" data-aos="fade-up">
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+        <div class="skill">Python</div>
+        <div class="skill">Flask</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">SQL</div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" data-aos="zoom-in">
+    <h2>Projects</h2>
+
+    <div class="project-container">
+
+        <div class="project-card">
+            <h3>Student Management System</h3>
+            <p>A Flask-based web application to manage student records with CRUD operations.</p>
+            <p><b>Tech Used:</b> Python, Flask, HTML, CSS</p>
+            <div class="buttons">
+                <a href="https://github.com/manas2801/student_management" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>Attendance Web App</h3>
+            <p>Web app to mark and track student attendance with stored records.</p>
+            <p><b>Tech Used:</b> Python, Flask, HTML, CSS</p>
+            <div class="buttons">
+                <a href="https://github.com/manas2801/attendance-web-app" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>Library Management System</h3>
+            <p>Application to manage books, issue/return system, and maintain records.</p>
+            <p><b>Tech Used:</b> Python, Flask, HTML, CSS</p>
+            <div class="buttons">
+                <a href="https://github.com/manas2801/library-management-system-python" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio with modern UI, animations, and responsive design.</p>
+            <p><b>Tech Used:</b> HTML, CSS, JavaScript</p>
+            <div class="buttons">
+                <a href="https://github.com/manas2801" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Certificates -->
+<section id="certificates">
+    <h2>Certificates</h2>
+    <ul>
+        <li>TCS iON Career Edge - Young Professional</li>
+        <li>Data Science using Python - NPTEL</li>
+        <li>Web Development - Udemy</li>
+    </ul>
+</section>
+
+<!-- Contact -->
+<section id="contact" data-aos="fade-left">
+    <h2>Contact Me</h2>
+    <h3>Let's Connect 🤝</h3>
+
+    <p>📧 Email: mayank.manas.2801@gmail.com</p>
+
+    <p>💻 GitHub: 
+        <a href="https://github.com/manas2801" target="_blank">Visit Profile</a>
+    </p>
+
+    <p>🔗 LinkedIn: 
+        <a href="https://www.linkedin.com/in/mayankmanas28" target="_blank">Visit Profile</a>
+    </p>
+
+    <br>
+
+    <a href="Manas_CV.pdf" target="_blank">
+        <button>View CV</button>
+    </a>
+</section>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
